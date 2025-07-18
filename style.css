@@ -1,0 +1,22 @@
+
+
+*::selection {
+  background: #A3DC9A;
+  color: #152b23;  
+}
+
+
+*::-moz-selection {
+  background: #A3DC9A;
+  color: #152b23;
+}
+
+.winky-rough {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+html {
+  scroll-behavior:smooth;
+}
