@@ -1,3 +1,27 @@
+// menu button 
+const menu_icon = document.querySelector('.menu-icon');
+const menu = document.querySelector('#menu');
+
+
+
+menu_icon.addEventListener('click', () => {
+    if(menu_icon.getAttribute('name') === 'menu-outline'){
+       menu.classList.remove('hidden');
+    menu_icon.setAttribute('name', 'close-outline') 
+    }
+    else{
+        menu.classList.add('hidden');
+        menu_icon.setAttribute('name', 'menu-outline')
+    }
+});
+
+
+
+
+
+
+
+
 news_data = [
     {
         img: '/images/news1.webp',

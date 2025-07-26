@@ -1,19 +1,15 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link href="src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
 </head>
 
 <body class="bg-[#EAEFEF]">
-
     <!-- navbar -->
     <nav id="#" class="px-15 bg-[#00ADB5] h-18 flex justify-between items-center max-md:px-1">
 
@@ -41,7 +37,7 @@
             <!-- Main Navigation Menu -->
             <div class="md:hidden">
                 <button id="menu-icon"><ion-icon name="menu-outline" class="text-3xl text-white menu-icon"></ion-icon>
-            </button>
+                </button>
             </div>
 
         </div>
@@ -49,7 +45,7 @@
     </nav>
 
     <!-- Main Navigation     -->
-    <div class="bg-[#0f7d83] py-2 shadow-sm max-md:hidden">
+   <div class="bg-[#0f7d83] py-2 shadow-sm max-md:hidden">
         <ol class="flex justify-around items-center">
             <li><a href="/index.html"
                     class="text-white px-1 py-1 hover:bg-[#9ab4b5e3] transition-all duration-200 ease-in-out rounded-sm font-medium ">Home</a>
@@ -115,51 +111,16 @@
         </ol>
 
 
+    </div>  
+
+
+   <div class="m-10 bg-white p-10">
+    <h1 class="text-4xl font-bold ">Faculties</h1>
+    <div id="faculties" class="block">
     </div>
-    
-    <!-- hero section -->
-    <div class="h-[80vh] w-[100%] mx-auto relative">
-        <img src="/images/hero.jpg" alt="" class="w-screen h-[80vh] object-cover brightness-50">
-        <div
-            class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-2xl text-white font-extrabold animate-pulse leading-10 max-md:text-lg max-sm:text-sm ">
-            <h1 class="underline underline-offset-5">AMROLI COLLEGE</h1>
-            <h1 class="underline underline-offset-5">Prof. V. B. Shah Institute of Management</h1>
-            <h1 class="underline underline-offset-5">R.V. Patel & V. L. Shah College of Commerce</h1>
-            <h1 class="underline underline-offset-5">Sutex Bank College of Computer Apps & Science</h1>
-        </div>
+   </div>
 
-
-    </div>
-
-    <!-- latest news and articles -->
-    <div class="mt-5">
-        <div class="bg-[#00ADB5] px-10 text-center text-white font-bold shadow-2xl">Latest News & articles</div>
-        <div id="news_data"
-            class="grid grid-cols-3 items-stretch gap-2 mt-3 px-10 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-1 max-sm:mt-1 max-md:px-2 max-md:space-y-5 ">
-
-            <!-- render-data -->
-
-        </div>
-
-    </div>
-
-
-    <!-- latest-events -->
-    <div class="mt-10 bg-white">
-        <div class="bg-[#00ADB5] px-10 text-center text-white font-bold shadow-2xl capitalize">latest events</div>
-        <div id="event-data"
-            class="grid grid-cols-3 items-stretch gap-5 mt-3 px-10 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-2 max-sm:mt-1 max-md:px-2 max-md:space-y-5 ">
-
-            <!-- render-data -->
-
-        </div>
-
-        <a href="/Events.html"><button class="text-white bg-[#00ADB5] px-10 py-2 mt-5 mx-auto block hover:scale-105 hover:rounded-2xl transition-all duration-150 ease-in">See More</button></a>
-    </div>
-
-
-    <!-- footer  -->
-    <footer class="bg-[#263238] text-white mt-10">
+     <footer class="bg-[#263238] text-white mt-10">
         <div
             class="py-20 grid grid-cols-3 gap-5 px-10 max-md:grid-cols-2 max-sm:grid-cols-1 justify-items-center items-center max-sm:gap-4 max-md:px-5 mx-auto max-w-7xl">
 
@@ -201,8 +162,8 @@
         </div>
     </footer>
 
-
     <script src="/script.js"></script>
+    <script src="/faculites-script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

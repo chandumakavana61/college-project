@@ -1,19 +1,15 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link href="src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
 </head>
 
 <body class="bg-[#EAEFEF]">
-
     <!-- navbar -->
     <nav id="#" class="px-15 bg-[#00ADB5] h-18 flex justify-between items-center max-md:px-1">
 
@@ -41,14 +37,13 @@
             <!-- Main Navigation Menu -->
             <div class="md:hidden">
                 <button id="menu-icon"><ion-icon name="menu-outline" class="text-3xl text-white menu-icon"></ion-icon>
-            </button>
+                </button>
             </div>
 
         </div>
 
     </nav>
 
-    <!-- Main Navigation     -->
     <div class="bg-[#0f7d83] py-2 shadow-sm max-md:hidden">
         <ol class="flex justify-around items-center">
             <li><a href="/index.html"
@@ -116,50 +111,54 @@
 
 
     </div>
-    
-    <!-- hero section -->
-    <div class="h-[80vh] w-[100%] mx-auto relative">
-        <img src="/images/hero.jpg" alt="" class="w-screen h-[80vh] object-cover brightness-50">
-        <div
-            class="absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-2xl text-white font-extrabold animate-pulse leading-10 max-md:text-lg max-sm:text-sm ">
-            <h1 class="underline underline-offset-5">AMROLI COLLEGE</h1>
-            <h1 class="underline underline-offset-5">Prof. V. B. Shah Institute of Management</h1>
-            <h1 class="underline underline-offset-5">R.V. Patel & V. L. Shah College of Commerce</h1>
-            <h1 class="underline underline-offset-5">Sutex Bank College of Computer Apps & Science</h1>
-        </div>
 
 
+    <div class="bg-white mx-15 my-10 p-10  max-md:my-3 max-md:mx-3 max-md:p-5">
+        <h1 class="text-2xl font-bold">About : College</h1>
+        <hr class="mb-5 mt-1 border-gray-300">
+        
+                <div class="space-y-6   ">
+                <p class="text-gray-500 indent-10 text-pretty">Prof. V. B. Shah Institute of Management, R.V. Patel College of Commerce (English Medium), V. L. Shah College
+                of Commerce (Gujarati Medium), and Sutex College of Computer Applications & Science, Amroli, managed by
+                Jivan Jyot Trust and affiliated with Veer Narmad South Gujarat University, continuously broadens its
+                horizons, embracing innovation and excellence across all domains. Today, the institution holds a prominent
+                position in South Gujarat, recognized for instilling discipline, commitment, and essential core values
+                needed to succeed. Our mission is to foster holistic development in students, ensuring they achieve academic
+                excellence while equipping them with the knowledge, resilience, and social responsibility necessary to
+                navigate life’s challenges and positively impact society.</p>
+
+                <p class="text-gray-500 indent-10 text-pretty">Celebrating over twenty-seven glorious years of dedicated service, our college embodies the vibrant spirit of
+                youth, embracing diversity with warmth and equality. We proudly support and empower students from diverse
+                backgrounds, including different genders, classes, minority communities, and those from SC/ST/OBC/PH groups.
+                Promoting inclusivity, our numerous initiatives ensure education remains an accessible right for every
+                student in India. Beyond academics, we cultivate a thriving community where collaborative learning and
+                community-oriented activities flourish.
+
+                </p>
+
+                <p class="text-gray-500 indent-10 text-pretty">Amroli College seamlessly blends modern technology with timeless traditional values. Our dynamic campus
+                thrives with year-round co-curricular and extracurricular activities. Excellence pairs with humanism, hard
+                skills complement soft skills, and rights harmonize with responsibilities, cultivating well-rounded
+                individuals. Special emphasis is placed on empowering female students, bringing their aspirations to the
+                forefront through comprehensive exposure in Sports, Cultural Events, Academics, NCC, and NSS, enabling them
+                to realize their full potential</p>
+
+                <p class="text-gray-500 indent-10 text-pretty">Guided by the principle “To conquer tomorrow, you must elevate today” our institution continually strives
+                toward its visionary goals. Commitment to quality management, innovation, and excellence permeates our
+                approach. We emphasize English proficiency, vocational training, personality development, career guidance,
+                placement preparation, social welfare initiatives, and community service. Our teaching methodologies,
+                supported by cutting-edge multimedia resources and the Digital English Language Lab, ensure interactive,
+                student-centered, and experiential learning.
+
+                </p>
+
+                <p class="text-gray-500 indent-10 text-pretty">
+                Join us at Amroli College and uncover the boundless potential within yourself.
+                </p>
+                </div>
     </div>
 
-    <!-- latest news and articles -->
-    <div class="mt-5">
-        <div class="bg-[#00ADB5] px-10 text-center text-white font-bold shadow-2xl">Latest News & articles</div>
-        <div id="news_data"
-            class="grid grid-cols-3 items-stretch gap-2 mt-3 px-10 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-1 max-sm:mt-1 max-md:px-2 max-md:space-y-5 ">
-
-            <!-- render-data -->
-
-        </div>
-
-    </div>
-
-
-    <!-- latest-events -->
-    <div class="mt-10 bg-white">
-        <div class="bg-[#00ADB5] px-10 text-center text-white font-bold shadow-2xl capitalize">latest events</div>
-        <div id="event-data"
-            class="grid grid-cols-3 items-stretch gap-5 mt-3 px-10 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-2 max-sm:mt-1 max-md:px-2 max-md:space-y-5 ">
-
-            <!-- render-data -->
-
-        </div>
-
-        <a href="/Events.html"><button class="text-white bg-[#00ADB5] px-10 py-2 mt-5 mx-auto block hover:scale-105 hover:rounded-2xl transition-all duration-150 ease-in">See More</button></a>
-    </div>
-
-
-    <!-- footer  -->
-    <footer class="bg-[#263238] text-white mt-10">
+     <footer class="bg-[#263238] text-white mt-10">
         <div
             class="py-20 grid grid-cols-3 gap-5 px-10 max-md:grid-cols-2 max-sm:grid-cols-1 justify-items-center items-center max-sm:gap-4 max-md:px-5 mx-auto max-w-7xl">
 
@@ -200,7 +199,6 @@
             </ol>
         </div>
     </footer>
-
 
     <script src="/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
