@@ -17,13 +17,13 @@
         <a href="/index.html">
             <img src="https://amrolicollege.ac.in/wp-content/uploads/2025/04/amrlogo-300x300.png" alt="" class="w-15">
         </a>
-
+        <a href="/index.html">
         <button
-            class="capitalize border-2 px-5 py-2 rounded-xl text-white font-bold  hover:-translate-y-0.5 transition-all duration-200 ease-in ">
-            <a href="/index.html">Home</a>
+            class="capitalize border-2 px-5 py-2 rounded-xl text-white font-bold cursor-pointer  hover:-translate-y-0.5 transition-all duration-200 ease-in ">
+            Home
 
         </button>
-
+        </a>
     </nav>
 
     <div class="bg-[#0f7d83] py-2 shadow-sm max-md:hidden">
@@ -59,9 +59,10 @@
     </div>
 
 
- <!-- Main Navigation Menu on mobile -->
-    <div id="menu"  class="hidden bg-[#0f7d83] py-2 shadow-sm absolute top-18 left-0 w-screen h-screen z-50 pt-10 overflow-y-auto">
-  <ol class="text-center space-y-2">
+    <!-- Main Navigation Menu on mobile -->
+    <div id="menu"
+        class="hidden bg-[#0f7d83] py-2 shadow-sm absolute top-18 left-0 w-screen h-screen z-50 pt-10 overflow-y-auto">
+        <ol class="text-center space-y-2">
             <li><a href="/index.html"
                     class="text-white px-1 py-1 hover:bg-[#9ab4b5e3] transition-all duration-200 ease-in-out rounded-sm font-medium ">Home</a>
             </li>
@@ -151,12 +152,14 @@
 
                     <div>
                         <label for="name" class="font-semibold text-gray-500 ">Name</label> <br>
-                        <input required type="text" name="name" id="name" class="border border-gray-800 w-full rounded-sm py-1 px-2">
+                        <input required type="text" name="name" id="name"
+                            class="border border-gray-800 w-full rounded-sm py-1 px-2">
                     </div>
 
                     <div>
                         <label for="email" class="font-semibold text-gray-500 ">email</label> <br>
-                        <input required type="email" name="email" id="email" class="border border-gray-800 w-full rounded-sm py-1 px-2">
+                        <input required type="email" name="email" id="email"
+                            class="border border-gray-800 w-full rounded-sm py-1 px-2">
                     </div>
 
                 </div>
@@ -165,22 +168,26 @@
 
                 <div class="mt-2">
                     <label for="subject" class="font-semibold text-gray-500 ">subject</label> <br>
-                    <input required type="text" name="subject" id="subject" class="border border-gray-800 w-full rounded-sm py-1 px-2">
+                    <input required type="text" name="subject" id="subject"
+                        class="border border-gray-800 w-full rounded-sm py-1 px-2">
                 </div>
 
 
                 <div class="mt-2">
                     <label for="message" class="font-semibold text-gray-500 ">message</label> <br>
-                    <textarea required name="message" id="message" cols="30" rows="10" class="border border-gray-800 w-full rounded-sm py-1 px-2"></textarea>
+                    <textarea required name="message" id="message" cols="30" rows="10"
+                        class="border border-gray-800 w-full rounded-sm py-1 px-2"></textarea>
                 </div>
 
-                <button type="submit" class="w-full bg-[#263238] text-white py-3 px-6 rounded-lg hover:bg-[#00ADB5] transition-colors font-semibold" >Send Message</button>
+                <button type="submit"
+                    class="w-full bg-[#263238] text-white py-3 px-6 rounded-lg hover:bg-[#00ADB5] transition-colors font-semibold">Send
+                    Message</button>
             </form>
         </div>
     </div>
 
     <!-- footer  -->
-        <footer class="bg-[#263238] text-white mt-10">
+    <footer class="bg-[#263238] text-white mt-10">
         <div
             class="py-20 grid grid-cols-3 gap-5 px-10 max-md:grid-cols-2 max-sm:grid-cols-1 justify-items-center items-center max-sm:gap-4 max-md:px-5 mx-auto max-w-7xl">
 
@@ -224,8 +231,8 @@
 
 
     <script>
-       const check_submit =document.getElementById('inquiryForm')
-        check_submit.addEventListener('submit',function(event){
+        const check_submit = document.getElementById('inquiryForm')
+        check_submit.addEventListener('submit', function (event) {
             event.preventDefault()
             alert('Message sent successfully')
             check_submit.reset()
